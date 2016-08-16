@@ -5,7 +5,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
-const API_KEY = 'AIzaSyAZ-cenVswEQ0_X3xxyEU-8plwgIDRPYEc';
+const API_KEY = 'AIzaSyAuQCVeNfKhtRk9KlChQPT1nO27DPO_5Ss';
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class App extends Component {
       selectedVideo: null
     };
 
-    this.videoSearch('puppies');
+    this.videoSearch('surfboards');
   }
 
   videoSearch(term) {
