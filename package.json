@@ -1,15 +1,15 @@
 {
-  "name": "redux-simple-starter",
+  "name": "ReactVideos",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:erich421/ReactVideos.git",
   "scripts": {
     "start": "node server.js",
     "postinstall": "webpack -p"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Eric Hendershott",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
